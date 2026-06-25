@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && bash scripts/create-zip.sh",
-    "zip": "bash scripts/create-zip.sh",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
