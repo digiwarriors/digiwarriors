@@ -116,6 +116,16 @@ export default function App() {
           {renderPage()}
         </motion.div>
       </AnimatePresence>
+      <footer className="text-center py-3 text-[10px] text-slate-400">
+        <a
+          href="https://x.com/digiwarriorsfun"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline transition-colors hover:text-white"
+        >
+          x.com/digiwarriorsfun
+        </a>
+      </footer>
     </div>
   );
 }
